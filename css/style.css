@@ -1,0 +1,179 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:35px; 
+    line-height: 30px; 
+}
+/*=============TOP SECTION START===========*/
+.content-wrapper{
+    display: flex;
+    margin-bottom:100px;
+}
+.left-content{
+    width:50%;
+    margin-left:8%;
+    margin-top:50px;
+}
+.heading-left-border{
+    border-left:5px solid;
+    border-image: linear-gradient(lime,green);
+    border-image-slice: 1;
+    line-height:30px;
+    padding-left:15px;
+}
+.lime-color{
+    color:lime;
+}
+.own-content{
+    width:70%;
+    font-size:17px;
+    text-align:justify;
+}
+.right-img-part{
+    width:50%;
+    margin-top:-20px;
+}
+.right-img-part img{
+    width:70%;
+    margin-left:12%;
+    margin-top:-20px;
+}
+.link-button{
+    color:#fff;
+    text-decoration:none;
+    background-image: linear-gradient(lime,green);
+    padding:10px 35px;
+    border-radius:10px;
+    margin-top:10px;
+    display:inline-block;
+    text-transform: capitalize;
+}
+.about-us{
+    display:block;
+    margin-top:20px;
+    font-size:15px;
+}
+/*================TOP SECTION END==============*/
+
+/*======= MISSION 2022 COLUMN SECTION START======*/
+.my-mission-heading{
+    text-align:center;
+    padding-bottom: 10px; 
+}
+.my-mission-heading span{
+    color:lime; 
+}
+.column-item-width{
+    width:33%;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.column-item-width img{
+    width:45%;
+}
+.first-col-bgcolor{
+    background-color: rgb(207, 220, 226);
+    margin-left:8%;
+}
+.second-col-bgcolor{
+    background-color:rgb(235, 222, 222);
+    margin:0 2%; 
+}
+.third-col-bgcolor{
+    background-color: rgb(199, 200, 235);
+    margin-right:8%; 
+}
+/*======= MISSION 2022 COLUMN SECTION END======*/
+
+/*==========DEVELOP WITHOUT LIMITS START=========*/
+.left-img-part{
+    width:50%;
+}
+.left-img-part img{
+    width:70%;
+    margin-left: 15%;
+}
+.right-content{
+    width:50%;
+}
+.right-content p{
+    width:80%;
+}
+/*--=====DEVELOP WITHOUT LIMITS END======*/
+
+/*===========CONTUCT US START*===========*/
+.contuct-form-bg{
+    background-color: rgb(194, 219, 194);
+    padding: 100px 0;
+}
+.contuct-us-form h2{
+    color:lime;
+}
+.contuct-us-form{
+    width:50%;
+    max-width: 500px;
+    margin:0 auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 30px gray;
+
+}
+.group-item{
+    border:1px solid #333;
+    margin:10px 0;
+    padding: 5px 15px;
+    border-radius: 5px;;
+}
+.group-item label{
+    color:#333;
+    display: block;
+    text-align:left;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.group-item input, .group-item textarea{
+    width:98%;
+    border:none;
+    outline:none;
+    padding:10px 0;
+    border-radius: 5px;
+}
+.link-click-button{
+    color:#fff;
+    text-decoration:none;
+    background-image: linear-gradient(lime,green);
+    padding:10px 35px;
+    border-radius:10px;
+    margin-top:10px;
+    display:inline-block;
+    text-transform: capitalize;
+}
+/*===========CONTUCT US END*============*/
+
+/*==========FOOTER START============*/
+.footer{
+    background-color:black;
+    padding: 10px 0;
+}
+.footer h1{
+    color:white;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+.footer span{
+   color:tomato;
+}
+.footer p{
+    color:#fff;
+    text-align: center;
+    font-size:17px;
+}
+/*==========FOOTER PART END*/
